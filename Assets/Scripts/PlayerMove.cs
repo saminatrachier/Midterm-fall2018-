@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMove : MonoBehaviour {
+public class PlayerMove : MonoBehaviour
+{
 
+	public GameObject MainCamera;
 	public float moveSpeed = 10;
 	//mouse sensitivity:
 	public float lookSpeed = 300f;
@@ -18,6 +20,10 @@ public class PlayerMove : MonoBehaviour {
 	void Update () {
 		
 		//mouse look
+		//if (MainCamera.transform.rotation.y > 0)
+		{
+		//	MainCamera.transform.rotation= new Vector3(0)
+		}
 		float mouseX = Input.GetAxis("Mouse X")* lookSpeed * Time.deltaTime; //mouseX = horizontal mouseDelta
 		float mouseY = Input.GetAxis("Mouse Y")* lookSpeed * Time.deltaTime; //mouseY = vertical mouseDelta
 		
