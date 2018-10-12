@@ -12,13 +12,13 @@
     <session id="143252885">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="13" />
           <entry key="project.open.time.0" value="6" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.7" value="2" />
-          <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.open.time.7" value="3" />
+          <entry key="project.open.time.8" value="3" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -33,30 +33,32 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="1760" />
+          <entry key="cs" value="2316" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="1760" />
+          <entry key="C#" value="2316" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMove.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="545">
-              <caret line="47" column="42" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
+            <state relative-caret-position="300">
+              <caret line="43" column="70" selection-start-line="43" selection-start-column="70" selection-end-line="43" selection-end-column="70" />
               <folding>
-                <marker date="1538663019238" expanded="false" signature="6:78" ph="..." />
-                <marker date="1538663019238" expanded="true" signature="119:1789" ph="{...}" />
-                <marker date="1538663019238" expanded="true" signature="353:360" ph="{...}" />
-                <marker date="1538663019238" expanded="true" signature="415:1511" ph="{...}" />
-                <marker date="1538663019238" expanded="true" signature="422:479" ph="/* mouse look ... */" />
-                <marker date="1538663019238" expanded="true" signature="1578:1787" ph="{...}" />
+                <marker date="1539365408285" expanded="false" signature="6:78" ph="..." />
+                <marker date="1539365408285" expanded="true" signature="119:2202" ph="{...}" />
+                <marker date="1539365408285" expanded="true" signature="305:408" ph="/* Use this for initialization ... */" />
+                <marker date="1539365408285" expanded="true" signature="457:464" ph="{...}" />
+                <marker date="1539365408285" expanded="true" signature="519:1924" ph="{...}" />
+                <marker date="1539365408285" expanded="true" signature="841:1000" ph="/* Camera.main.transform.localEulerAngles += new Vector3(-mouseY, 0f, 0f); ... */" />
+                <marker date="1539365408285" expanded="true" signature="1333:1491" ph="{...}" />
+                <marker date="1539365408285" expanded="true" signature="1991:2200" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -78,7 +80,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/DogMove.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
@@ -147,8 +149,8 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/DoggoSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Destroy.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DogMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMove.cs" />
       </list>
     </option>
   </component>
@@ -158,10 +160,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="1170" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="1033" />
     <option name="y" value="115" />
-    <option name="width" value="635" />
+    <option name="width" value="772" />
     <option name="height" value="765" />
   </component>
   <component name="ProjectView">
@@ -169,11 +171,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="UnityExplorer">
-        <option name="show-hidden-items" value="false" />
-      </pane>
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="UnityExplorer">
+        <option name="show-hidden-items" value="false" />
       </pane>
       <pane id="FileSystemExplorer" />
     </panes>
@@ -233,11 +235,13 @@
       <workItem from="1538417421764" duration="937000" />
       <workItem from="1538618904386" duration="16000" />
       <workItem from="1538662487645" duration="1572000" />
+      <workItem from="1539263980222" duration="2051000" />
+      <workItem from="1539364449005" duration="959000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8322000" />
+    <option name="totallyTimeSpent" value="11332000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -249,10 +253,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="827" y="92" width="617" height="612" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.010738255" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.028725315" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -297,21 +301,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Destroy.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-          <folding>
-            <marker date="1538492292744" expanded="false" signature="6:78" ph="..." />
-            <marker date="1538492292744" expanded="true" signature="117:782" ph="{...}" />
-            <marker date="1538492292744" expanded="true" signature="137:776" ph="{...}" />
-            <marker date="1538492292744" expanded="true" signature="242:770" ph="{...}" />
-            <marker date="1538492292744" expanded="true" signature="469:760" ph="{...}" />
-            <marker date="1538492292744" expanded="true" signature="666:746" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Notes.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -326,17 +315,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMove.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Destroy.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="47" column="42" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
+        <state relative-caret-position="300">
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
           <folding>
-            <marker date="1538663019238" expanded="false" signature="6:78" ph="..." />
-            <marker date="1538663019238" expanded="true" signature="119:1789" ph="{...}" />
-            <marker date="1538663019238" expanded="true" signature="353:360" ph="{...}" />
-            <marker date="1538663019238" expanded="true" signature="415:1511" ph="{...}" />
-            <marker date="1538663019238" expanded="true" signature="422:479" ph="/* mouse look ... */" />
-            <marker date="1538663019238" expanded="true" signature="1578:1787" ph="{...}" />
+            <marker date="1538492292744" expanded="false" signature="6:78" ph="..." />
+            <marker date="1538492292744" expanded="true" signature="117:782" ph="{...}" />
+            <marker date="1538492292744" expanded="true" signature="137:776" ph="{...}" />
+            <marker date="1538492292744" expanded="true" signature="242:770" ph="{...}" />
+            <marker date="1538492292744" expanded="true" signature="469:760" ph="{...}" />
+            <marker date="1538492292744" expanded="true" signature="666:746" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -368,6 +357,23 @@
             <marker date="1538663828548" expanded="true" signature="501:545" ph="{...}" />
             <marker date="1538663828548" expanded="true" signature="553:596" ph="{...}" />
             <marker date="1538663828548" expanded="true" signature="608:671" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMove.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="43" column="70" selection-start-line="43" selection-start-column="70" selection-end-line="43" selection-end-column="70" />
+          <folding>
+            <marker date="1539365408285" expanded="false" signature="6:78" ph="..." />
+            <marker date="1539365408285" expanded="true" signature="119:2202" ph="{...}" />
+            <marker date="1539365408285" expanded="true" signature="305:408" ph="/* Use this for initialization ... */" />
+            <marker date="1539365408285" expanded="true" signature="457:464" ph="{...}" />
+            <marker date="1539365408285" expanded="true" signature="519:1924" ph="{...}" />
+            <marker date="1539365408285" expanded="true" signature="841:1000" ph="/* Camera.main.transform.localEulerAngles += new Vector3(-mouseY, 0f, 0f); ... */" />
+            <marker date="1539365408285" expanded="true" signature="1333:1491" ph="{...}" />
+            <marker date="1539365408285" expanded="true" signature="1991:2200" ph="{...}" />
           </folding>
         </state>
       </provider>
