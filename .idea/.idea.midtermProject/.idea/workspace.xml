@@ -12,13 +12,13 @@
     <session id="143252885">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="15" />
+          <entry key="project.closed" value="16" />
           <entry key="project.open.time.0" value="6" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.7" value="4" />
+          <entry key="project.open.time.7" value="5" />
           <entry key="project.open.time.8" value="3" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -118,8 +118,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/DoggoSpawner.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="570">
+              <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="34" />
               <folding>
                 <marker date="1539566586038" expanded="false" signature="6:78" ph="..." />
                 <marker date="1539566586038" expanded="true" signature="121:828" ph="{...}" />
@@ -163,10 +163,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1078" />
-    <option name="y" value="151" />
-    <option name="width" value="773" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1077" />
+    <option name="y" value="150" />
+    <option name="width" value="774" />
     <option name="height" value="765" />
   </component>
   <component name="ProjectView">
@@ -175,11 +175,11 @@
     </navigator>
     <panes>
       <pane id="FileSystemExplorer" />
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
+      </pane>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
       </pane>
     </panes>
   </component>
@@ -241,11 +241,12 @@
       <workItem from="1539263980222" duration="2051000" />
       <workItem from="1539364449005" duration="1569000" />
       <workItem from="1539564547414" duration="1727000" />
+      <workItem from="1539610299655" duration="122000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13669000" />
+    <option name="totallyTimeSpent" value="13791000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -257,9 +258,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="863" y="121" width="618" height="612" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.028673835" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.010738255" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -381,8 +382,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/DoggoSpawner.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="570">
+          <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="34" />
           <folding>
             <marker date="1539566586038" expanded="false" signature="6:78" ph="..." />
             <marker date="1539566586038" expanded="true" signature="121:828" ph="{...}" />
