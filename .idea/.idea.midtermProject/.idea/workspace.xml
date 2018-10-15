@@ -12,13 +12,13 @@
     <session id="143252885">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="13" />
+          <entry key="project.closed" value="15" />
           <entry key="project.open.time.0" value="6" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.7" value="3" />
+          <entry key="project.open.time.7" value="4" />
           <entry key="project.open.time.8" value="3" />
-          <entry key="project.opened" value="14" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -33,22 +33,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="2316" />
+          <entry key="cs" value="2545" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="2316" />
+          <entry key="C#" value="2545" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMove.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="615">
               <caret line="43" column="70" selection-start-line="43" selection-start-column="70" selection-end-line="43" selection-end-column="70" />
               <folding>
                 <marker date="1539365408285" expanded="false" signature="6:78" ph="..." />
@@ -115,18 +115,21 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/DoggoSpawner.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="274">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
               <folding>
-                <marker date="1538357287135" expanded="false" signature="6:78" ph="..." />
-                <marker date="1538357287135" expanded="true" signature="121:588" ph="{...}" />
-                <marker date="1538357287135" expanded="true" signature="329:378" ph="{...}" />
-                <marker date="1538357287135" expanded="true" signature="352:372" ph="{...}" />
-                <marker date="1538357287135" expanded="true" signature="401:512" ph="{...}" />
-                <marker date="1538357287135" expanded="true" signature="541:584" ph="{...}" />
+                <marker date="1539566586038" expanded="false" signature="6:78" ph="..." />
+                <marker date="1539566586038" expanded="true" signature="121:828" ph="{...}" />
+                <marker date="1539566586038" expanded="true" signature="272:338" ph="/* public float maxNumber = 25f; ... */" />
+                <marker date="1539566586038" expanded="true" signature="342:448" ph="/* void Start() ... */" />
+                <marker date="1539566586038" expanded="true" signature="465:514" ph="{...}" />
+                <marker date="1539566586038" expanded="true" signature="488:508" ph="{...}" />
+                <marker date="1539566586038" expanded="true" signature="537:651" ph="{...}" />
+                <marker date="1539566586038" expanded="true" signature="680:824" ph="{...}" />
+                <marker date="1539566586038" expanded="true" signature="687:780" ph="/* enemyCount++; ... */" />
               </folding>
             </state>
           </provider>
@@ -147,10 +150,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/DoggoSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Destroy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DogMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DoggoSpawner.cs" />
       </list>
     </option>
   </component>
@@ -160,10 +163,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="1033" />
-    <option name="y" value="115" />
-    <option name="width" value="772" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1078" />
+    <option name="y" value="151" />
+    <option name="width" value="773" />
     <option name="height" value="765" />
   </component>
   <component name="ProjectView">
@@ -171,13 +174,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
       </pane>
-      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -236,12 +239,13 @@
       <workItem from="1538618904386" duration="16000" />
       <workItem from="1538662487645" duration="1572000" />
       <workItem from="1539263980222" duration="2051000" />
-      <workItem from="1539364449005" duration="1219000" />
+      <workItem from="1539364449005" duration="1569000" />
+      <workItem from="1539564547414" duration="1727000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11592000" />
+    <option name="totallyTimeSpent" value="13669000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -253,10 +257,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="827" y="92" width="617" height="612" extended-state="1" />
-    <editor active="true" />
+    <frame x="863" y="121" width="618" height="612" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.028725315" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.028673835" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -297,10 +300,40 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/DoggoSpawner.cs</url>
+          <line>16</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/DoggoSpawner.cs" initialLine="16">
+            <startOffsets>
+              <option value="361" />
+            </startOffsets>
+            <endOffsets>
+              <option value="362" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMove.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="43" column="70" selection-start-line="43" selection-start-column="70" selection-end-line="43" selection-end-column="70" />
+          <folding>
+            <marker date="1539365408285" expanded="false" signature="6:78" ph="..." />
+            <marker date="1539365408285" expanded="true" signature="119:2202" ph="{...}" />
+            <marker date="1539365408285" expanded="true" signature="305:408" ph="/* Use this for initialization ... */" />
+            <marker date="1539365408285" expanded="true" signature="457:464" ph="{...}" />
+            <marker date="1539365408285" expanded="true" signature="519:1924" ph="{...}" />
+            <marker date="1539365408285" expanded="true" signature="841:1000" ph="/* Camera.main.transform.localEulerAngles += new Vector3(-mouseY, 0f, 0f); ... */" />
+            <marker date="1539365408285" expanded="true" signature="1333:1491" ph="{...}" />
+            <marker date="1539365408285" expanded="true" signature="1991:2200" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Notes.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -311,6 +344,22 @@
             <marker date="1538490296533" expanded="true" signature="165:172" ph="{...}" />
             <marker date="1538490296533" expanded="true" signature="227:234" ph="{...}" />
             <marker date="1538490296533" expanded="true" signature="236:860" ph="/* instead of a wave clear game, maybe a hide and seek game where you try to find your dogs in a sea of bigger/si ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/DogMove.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <folding>
+            <marker date="1538663828548" expanded="false" signature="6:78" ph="..." />
+            <marker date="1538663828548" expanded="true" signature="116:677" ph="{...}" />
+            <marker date="1538663828548" expanded="true" signature="203:675" ph="{...}" />
+            <marker date="1538663828548" expanded="true" signature="426:600" ph="{...}" />
+            <marker date="1538663828548" expanded="true" signature="501:545" ph="{...}" />
+            <marker date="1538663828548" expanded="true" signature="553:596" ph="{...}" />
+            <marker date="1538663828548" expanded="true" signature="608:671" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -332,48 +381,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/DoggoSpawner.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="274">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
           <folding>
-            <marker date="1538357287135" expanded="false" signature="6:78" ph="..." />
-            <marker date="1538357287135" expanded="true" signature="121:588" ph="{...}" />
-            <marker date="1538357287135" expanded="true" signature="329:378" ph="{...}" />
-            <marker date="1538357287135" expanded="true" signature="352:372" ph="{...}" />
-            <marker date="1538357287135" expanded="true" signature="401:512" ph="{...}" />
-            <marker date="1538357287135" expanded="true" signature="541:584" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/DogMove.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-          <folding>
-            <marker date="1538663828548" expanded="false" signature="6:78" ph="..." />
-            <marker date="1538663828548" expanded="true" signature="116:677" ph="{...}" />
-            <marker date="1538663828548" expanded="true" signature="203:675" ph="{...}" />
-            <marker date="1538663828548" expanded="true" signature="426:600" ph="{...}" />
-            <marker date="1538663828548" expanded="true" signature="501:545" ph="{...}" />
-            <marker date="1538663828548" expanded="true" signature="553:596" ph="{...}" />
-            <marker date="1538663828548" expanded="true" signature="608:671" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMove.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="43" column="70" selection-start-line="43" selection-start-column="70" selection-end-line="43" selection-end-column="70" />
-          <folding>
-            <marker date="1539365408285" expanded="false" signature="6:78" ph="..." />
-            <marker date="1539365408285" expanded="true" signature="119:2202" ph="{...}" />
-            <marker date="1539365408285" expanded="true" signature="305:408" ph="/* Use this for initialization ... */" />
-            <marker date="1539365408285" expanded="true" signature="457:464" ph="{...}" />
-            <marker date="1539365408285" expanded="true" signature="519:1924" ph="{...}" />
-            <marker date="1539365408285" expanded="true" signature="841:1000" ph="/* Camera.main.transform.localEulerAngles += new Vector3(-mouseY, 0f, 0f); ... */" />
-            <marker date="1539365408285" expanded="true" signature="1333:1491" ph="{...}" />
-            <marker date="1539365408285" expanded="true" signature="1991:2200" ph="{...}" />
+            <marker date="1539566586038" expanded="false" signature="6:78" ph="..." />
+            <marker date="1539566586038" expanded="true" signature="121:828" ph="{...}" />
+            <marker date="1539566586038" expanded="true" signature="272:338" ph="/* public float maxNumber = 25f; ... */" />
+            <marker date="1539566586038" expanded="true" signature="342:448" ph="/* void Start() ... */" />
+            <marker date="1539566586038" expanded="true" signature="465:514" ph="{...}" />
+            <marker date="1539566586038" expanded="true" signature="488:508" ph="{...}" />
+            <marker date="1539566586038" expanded="true" signature="537:651" ph="{...}" />
+            <marker date="1539566586038" expanded="true" signature="680:824" ph="{...}" />
+            <marker date="1539566586038" expanded="true" signature="687:780" ph="/* enemyCount++; ... */" />
           </folding>
         </state>
       </provider>
