@@ -138,6 +138,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bad966a55a2e88344a2069ab75377b64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxDistance: 8
 --- !u!135 &135426982257633560
 SphereCollider:
   m_ObjectHideFlags: 1

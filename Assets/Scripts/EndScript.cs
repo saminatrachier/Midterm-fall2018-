@@ -12,9 +12,10 @@ public class EndScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (Input.GetKeyDown(KeyCode.R))
-		{
-			Scene scene = SceneManager.GetActiveScene();
-			SceneManager.LoadScene(scene.name);
+		{	
+			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+			Time.timeScale = 1.0f;
+			ScoreText.Score = 0;
 		}
 	}
 	
