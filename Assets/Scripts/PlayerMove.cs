@@ -15,9 +15,7 @@ public class PlayerMove : MonoBehaviour
 	//store Mouse Y rotation in this variable to clamp and lock the mouse
 	private float upDownRotation;
 	
-	void Start () {
-		
-	}
+
 	
 	// Update is called once per frame
 	void Update () {
@@ -43,6 +41,7 @@ public class PlayerMove : MonoBehaviour
 			Cursor.lockState = CursorLockMode.Locked; // lock cursor in the center of the screen
 			Cursor.visible = false; //hides the cursor just to be safe
 		}
+			
 		
 		
 		//first-person player movement

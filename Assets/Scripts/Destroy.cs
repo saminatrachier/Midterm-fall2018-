@@ -1,9 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class Destroy : MonoBehaviour {
-
+public class Destroy : MonoBehaviour
+{
+  
     void Update()
     {
         
@@ -20,7 +22,9 @@ public class Destroy : MonoBehaviour {
                 //if the collider is a sphere collider, then it destroys the object
                 if(sc != null)
                 {
+                    ScoreText.Score++;
                     Destroy(sc.gameObject);
+                   
                 }
             }
         }

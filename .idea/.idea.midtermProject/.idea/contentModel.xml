@@ -8,10 +8,14 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="Destroy.cs" t="Include" />
+          <e p="DestroyTimer.cs" t="Include" />
           <e p="DoggoSpawner.cs" t="Include" />
           <e p="DogMove.cs" t="Include" />
+          <e p="EndScript.cs" t="Include" />
           <e p="Notes.cs" t="Include" />
           <e p="PlayerMove.cs" t="Include" />
+          <e p="ScoreText.cs" t="Include" />
+          <e p="Timer.cs" t="Include" />
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />
