@@ -7,28 +7,37 @@ using UnityEngine.UI;
 public class Destroy : MonoBehaviour
 {
     public float maxDistance = 8f;
+    public GameObject halo;
   
     void Update()
     {
         
         //checks if the user clicks the mouse button
-        if (Input.GetMouseButtonUp(0))
-        {
+       
        
             //raycast to check if the player hits the object
             RaycastHit hit;
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            if (Physics.Raycast(ray, out hit, maxDistance))
+            if (Physics.Raycast(ray, out hit, maxDistance)&& hit.transform == this.transform)
             {
                 SphereCollider sc = hit.collider as SphereCollider;
-                //if the collider is a sphere collider, then it destroys the object
-                if(sc != null)
+                halo.SetActive(true);
+                             //if the collider is a sphere collider, then it destroys the object
+
+
+                if (Input.GetMouseButtonUp(0))
                 {
-                    ScoreText.Score++;
-                    Destroy(sc.gameObject);
-                   
+                    if (sc != null)
+                    {
+                        ScoreText.Score++;
+                        Destroy(sc.gameObject);
+                    }
                 }
-            }
+                
+        }
+        else
+        {
+            halo.SetActive(false);
         }
     }
    

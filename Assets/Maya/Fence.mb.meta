@@ -82,6 +82,8 @@ ModelImporter:
     400074: pTorus8
     400076: pTorus9
     2100000: lambert1
+    2100002: blinn1
+    2100004: phong1
     2300000: pCylinder1
     2300002: pCylinder2
     2300004: pTorus1

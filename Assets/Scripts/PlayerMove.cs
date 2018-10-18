@@ -54,9 +54,7 @@ public class PlayerMove : MonoBehaviour
 	void FixedUpdate() //all physics code should go in FixedUpdate!!!
 	{
 		//apply our forces to move the object around
-		GetComponent<Rigidbody>().velocity = inputVector; //no need for Time.deltatime, already fixed framerate
-		
-		//one problem: gravity doesn't work anymore
+		GetComponent<Rigidbody>().velocity = new Vector3(inputVector.x,GetComponent<Rigidbody>().velocity.y,inputVector.z); //no need for Time.deltatime, already fixed framerate
 
 	}
 }

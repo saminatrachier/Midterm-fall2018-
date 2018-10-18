@@ -11,6 +11,22 @@ Prefab:
   m_SourcePrefab: {fileID: 0}
   m_RootGameObject: {fileID: 1908188323804130}
   m_IsPrefabAsset: 1
+--- !u!1 &1260865625882716
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4299849663691138}
+  - component: {fileID: 122650265413148536}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1908188323804130
 GameObject:
   m_ObjectHideFlags: 0
@@ -25,7 +41,7 @@ GameObject:
   - component: {fileID: 54497625543003050}
   - component: {fileID: 114068009880015720}
   - component: {fileID: 114698038936965250}
-  - component: {fileID: 114384668975619586}
+  - component: {fileID: 114671744563495536}
   m_Layer: 0
   m_Name: Dog4
   m_TagString: Untagged
@@ -33,6 +49,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!4 &4299849663691138
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1260865625882716}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4893861358372938}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4893861358372938
 Transform:
   m_ObjectHideFlags: 1
@@ -40,9 +69,10 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1908188323804130}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.16, y: 0.8432895, z: 1.431901}
+  m_LocalPosition: {x: 5.16, y: 8.3932905, z: 1.431901}
   m_LocalScale: {x: 0.32362, y: 0.32362, z: 0.32362}
-  m_Children: []
+  m_Children:
+  - {fileID: 4299849663691138}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -115,7 +145,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
---- !u!114 &114384668975619586
+--- !u!114 &114671744563495536
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -138,6 +168,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bad966a55a2e88344a2069ab75377b64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxDistance: 5
+  halo: {fileID: 1260865625882716}
+--- !u!122 &122650265413148536
+Halo:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1260865625882716}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4284966901
+  m_Size: 1
 --- !u!135 &135347184584799658
 SphereCollider:
   m_ObjectHideFlags: 1
