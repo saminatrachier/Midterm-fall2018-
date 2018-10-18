@@ -15,6 +15,6 @@ public class ScoreText : MonoBehaviour
 
     void Update()
     {
-        text.text = Score.ToString();
+        text.text = ("Score: " + Score);
     }
 }

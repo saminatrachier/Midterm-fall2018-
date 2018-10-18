@@ -8,6 +8,7 @@ public class Destroy : MonoBehaviour
 {
     public float maxDistance = 8f;
     public GameObject halo;
+    public GameObject particle;
   
     void Update()
     {
@@ -29,6 +30,7 @@ public class Destroy : MonoBehaviour
                 {
                     if (sc != null)
                     {
+                        Instantiate(particle, transform.position, Quaternion.identity);
                         ScoreText.Score++;
                         Destroy(sc.gameObject);
                     }

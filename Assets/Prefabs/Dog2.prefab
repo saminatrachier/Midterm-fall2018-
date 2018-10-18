@@ -146,6 +146,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxDistance: 5
   halo: {fileID: 1258976323630502}
+  particle: {fileID: 1443758190259090, guid: f1cfb7a8ba8d2a8439092b42f25a13de, type: 2}
 --- !u!114 &114943966557171918
 MonoBehaviour:
   m_ObjectHideFlags: 1

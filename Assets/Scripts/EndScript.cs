@@ -13,9 +13,17 @@ public class EndScript : MonoBehaviour {
 	void Update () {
 		if (Input.GetKeyDown(KeyCode.R))
 		{	
-			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+			SceneManager.LoadScene("SampleScene");
 			Time.timeScale = 1.0f;
 			ScoreText.Score = 0;
+		}
+		if (Input.GetKeyDown(KeyCode.Escape))
+		{	
+			Application.Quit();
+		}
+		if (Input.GetKeyDown(KeyCode.Space))
+		{	
+			SceneManager.LoadScene("SampleScene");
 		}
 	}
 	
