@@ -9,7 +9,10 @@ public class Destroy : MonoBehaviour
     public float maxDistance = 8f;
     public GameObject halo;
     public GameObject particle;
-  
+
+
+
+   
     void Update()
     {
         
